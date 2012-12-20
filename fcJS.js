@@ -1,4 +1,7 @@
 /*
+    Plugin jQuery que permite filtrar datos por columnas en
+    una tabla HTML por medio de atributos HTML o JavaScript.
+
     Versión  : 1.0
     Autor    : Carlos Alberto Castaño
     Fecha    : 20 diciembre 2012
