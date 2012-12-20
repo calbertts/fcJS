@@ -2,7 +2,7 @@
     Versión  : 1.0
     Autor    : Carlos Alberto Castaño
     Fecha    : 20 diciembre 2012
-    Sitio web: http://www.calbertts.com/codigo/tfjs
+    Sitio web: http://www.calbertts.com/codigo/fcjs
     
     GNU General Public License
 */
