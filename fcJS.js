@@ -92,15 +92,17 @@
 
 // Instalación del filtro a todas las tablas con atributos data personalizados
 $(function(){
-    $('table[data-filter=true]').fcJS({
+    var tablas = $('table[data-filter=true]');
+
+    tablas.fcJS({
         inputEvent  : 'keyup',
-        inputFilter : $('table[data-filter=true]').attr('data-inputFilter'),
-        inputStyle  : $('table[data-filter=true]').attr('data-inputStyle'),
-        inputClass  : $('table[data-filter=true]').attr('data-inputClass'),
-        inputType   : $('table[data-filter=true]').attr('data-inputType'),
-        inputCase   : $('table[data-filter=true]').attr('data-inputCase'),
-        inputNewLine: $('table[data-filter=true]').attr('data-inputNewLine'),
-        efect       : $('table[data-filter=true]').attr('data-efect'),
-        efectType   : $('table[data-filter=true]').attr('data-efectType')
+        inputFilter : tablas.attr('data-inputFilter'),
+        inputStyle  : tablas.attr('data-inputStyle'),
+        inputClass  : tablas.attr('data-inputClass'),
+        inputType   : tablas.attr('data-inputType'),
+        inputCase   : tablas.attr('data-inputCase'),
+        inputNewLine: tablas.attr('data-inputNewLine'),
+        efect       : tablas.attr('data-efect'),
+        efectType   : tablas.attr('data-efectType')
     });
 });
