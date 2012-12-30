@@ -95,7 +95,7 @@ $(function(){
     var tablas = $('table[data-filter=true]');
 
     tablas.fcJS({
-        inputEvent  : 'keyup',
+        inputEvent  : tablas.attr('data-inputEvent'),
         inputFilter : tablas.attr('data-inputFilter'),
         inputStyle  : tablas.attr('data-inputStyle'),
         inputClass  : tablas.attr('data-inputClass'),
